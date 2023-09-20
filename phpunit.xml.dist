@@ -34,12 +34,12 @@
     </listeners>
 
     <!-- Run `composer require symfony/panther` before enabling this extension -->
-<!--    <extensions>-->
+   <extensions>
 <!--        &lt;!&ndash; it begins a database transaction before every testcase and rolls it back after-->
 <!--             the test finished, so tests can manipulate the database without affecting other tests &ndash;&gt;-->
-<!--            <extension class="\DAMA\DoctrineTestBundle\PHPUnit\PHPUnitExtension" />-->
+           <extension class="\DAMA\DoctrineTestBundle\PHPUnit\PHPUnitExtension" />
 
 <!--        &lt;!&ndash; Run `composer require symfony/panther` before enabling this extension &ndash;&gt;-->
 <!--        &lt;!&ndash; <extension class="Symfony\Component\Panther\ServerExtension" /> &ndash;&gt;-->
-<!--    </extensions>-->
+   </extensions>
 </phpunit>
